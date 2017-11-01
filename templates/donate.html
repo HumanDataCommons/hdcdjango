@@ -91,9 +91,9 @@
                     <div class="innerrightdonate">
                         <div class="row">
                             <div style="position: absolute;margin-top: -30px;">
-                                <img width="160px" height="70px" class="card-img"
+                                <a href="https://tinyurl.com/hdcdonates"><img width="160px" height="70px" class="card-img"
                                      src="{% static 'img/logo/paypal.png' %}"
-                                     alt="Card image cap">
+                                     alt="Card image cap"></a>
                             </div>
                             <div class="row"><br></div>
                             <div style="position: absolute;margin-top: 40px;">
@@ -107,6 +107,7 @@
                                      src="{% static 'img/logo/QR.png' %}"
                                      alt="Card image cap">
                             </div>
+			    <div class="row" style="position: absolute;margin-top: 160px;margin-left: -50px;">39B74NjYFqm9domUzvdvxT7tVaFFAsSLNc</div>
                         </div>
                     </div>
 
@@ -206,9 +207,9 @@
 
 
                     <div id="donatebutton" class="innerright">
-                        <button style="button4" id="rcorners1">
-                            <center><font size="2">DONATE</font></center>
-                        </button>
+                        <input type="button" style="button4" id="rcorners1" value="DONATE" onclick="window.location.href='http://localhost:8000/donate'" />
+                            
+                        
                     </div>
                 </div> <!-- Outer div-->
             </div>
